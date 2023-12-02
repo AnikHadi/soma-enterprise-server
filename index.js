@@ -18,8 +18,8 @@ app.use(express.json());
 // database connection with mongoose
 const database = async () => {
     try {
-    //   const uri = `mongodb+srv://${process.env.DB_USER_NAME}:${process.env.DB_USER_PASSWORD}@cluster0.17kyq.mongodb.net/soma_enterprise?retryWrites=true&w=majority`;
-      const uri = "mongodb://127.0.0.1:27017/soma_enterprise";
+      const uri = `mongodb+srv://${process.env.DB_USER_NAME}:${process.env.DB_USER_PASSWORD}@cluster0.17kyq.mongodb.net/soma_enterprise?retryWrites=true&w=majority`;
+      // const uri = "mongodb://127.0.0.1:27017/soma_enterprise";
       const mongo = await mongoose.connect(uri);
       if (mongo) {
         console.log("_________MongoDB successfully connected_________");
