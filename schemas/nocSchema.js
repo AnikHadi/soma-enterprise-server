@@ -7,7 +7,6 @@ const nocSchema = mongoose.Schema({
   },
   po_no: {
     type: String,
-    required: true,
   },
   file_no: {
     type: String,
@@ -67,15 +66,12 @@ const nocSchema = mongoose.Schema({
   },
   pay_date: {
     type: String,
-    // required: true,
   },
   bank_name: {
     type: String,
-    // required: true,
   },
   is_paid: {
     type: String,
-    // required: true,
   },
 });
 

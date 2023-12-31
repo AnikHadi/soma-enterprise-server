@@ -7,7 +7,6 @@ const clearingSchema = mongoose.Schema({
   },
   po_no: {
     type: String,
-    required: true,
   },
   lca_no: {
     type: String,
@@ -55,15 +54,12 @@ const clearingSchema = mongoose.Schema({
   },
   pay_date: {
     type: String,
-    // required: true,
   },
   bank_name: {
     type: String,
-    // required: true,
   },
   is_paid: {
     type: String,
-    // required: true,
   },
 });
 

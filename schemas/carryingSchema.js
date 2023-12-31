@@ -6,31 +6,30 @@ const carringSchema = mongoose.Schema({
     required: true,
   },
   po_no: {
-    type: String,
-    required: true,
+    type: Array,
   },
   lc_no: {
-    type: String,
+    type: Array,
     required: true,
   },
   lc_date: {
-    type: String,
+    type: Array,
     required: true,
   },
   bill_entry_no: {
-    type: String,
+    type: Array,
     required: true,
   },
   bill_entry_date: {
-    type: String,
+    type: Array,
     required: true,
   },
   invoice_no: {
-    type: String,
+    type: Array,
     required: true,
   },
   invoice_date: {
-    type: String,
+    type: Array,
     required: true,
   },
   bill_no: {
@@ -59,15 +58,12 @@ const carringSchema = mongoose.Schema({
   },
   pay_date: {
     type: String,
-    // required: true,
   },
   bank_name: {
     type: String,
-    // required: true,
   },
   is_paid: {
     type: String,
-    // required: true,
   },
 });
 
