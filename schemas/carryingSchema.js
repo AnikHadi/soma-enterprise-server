@@ -59,15 +59,15 @@ const carringSchema = mongoose.Schema({
   },
   pay_date: {
     type: String,
-    required: true,
+    // required: true,
   },
   bank_name: {
     type: String,
-    required: true,
+    // required: true,
   },
   is_paid: {
     type: String,
-    required: true,
+    // required: true,
   },
 });
 
